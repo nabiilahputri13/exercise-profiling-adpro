@@ -28,7 +28,7 @@ public class DataSeedService {
     @Autowired
     private StudentCourseRepository studentCourseRepository;
 
-    private static final int NUMBER_OF_STUDENTS = 1_000;
+    private static final int NUMBER_OF_STUDENTS = 2_000;
     private static final int NUMBER_OF_COURSE = 10;
 
     public void seedStudent() {
@@ -58,6 +58,7 @@ public class DataSeedService {
     }
 
     public void seedStudentCourses() {
+
         List<Student> students = studentRepository.findAll();
         List<Course> courses = courseRepository.findAll();
 
