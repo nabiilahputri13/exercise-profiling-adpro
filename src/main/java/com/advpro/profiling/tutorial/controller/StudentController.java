@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author muhammad.khadafi
- */
+
+ @author muhammad.khadafi*/
 
 @RestController
 public class StudentController {
@@ -30,12 +30,16 @@ public class StudentController {
     @GetMapping("/highest-gpa")
     public ResponseEntity<String> highestGpa() {
         Optional<Student> studentWithHighestGpa = studentService.findStudentWithHighestGpa();
-        return ResponseEntity.ok(studentWithHighestGpa.get().toString());
+        String student = "Empty";
+        if (studentWithHighestGpa.isPresent()) {
+            student = studentWithHighestGpa.get().toString();
+        }
+        return ResponseEntity.ok(student);
     }
+
     @GetMapping("/all-student-name")
     public ResponseEntity<String> allStudentName() {
         String joinedStudentNames = studentService.joinStudentNames();
         return ResponseEntity.ok(joinedStudentNames);
     }
 }
-
