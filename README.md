@@ -3,12 +3,12 @@
 Screenshots
 -----------
 
-all-student-name
+### all-student-name
 
 <img width="1280" alt="Screenshot 2024-03-12 235634" src="https://github.com/nabiilahputri13/inventory/assets/124870275/b0f5c4c1-8f9e-454f-adc3-85044088e167">
 <img width="1280" alt="Screenshot 2024-03-13 000630" src="https://github.com/nabiilahputri13/inventory/assets/124870275/01eb4d30-51cd-4d24-9fb9-33257d654c94">
 
-highest-gpa
+### highest-gpa
 
 <img width="1280" alt="Screenshot 2024-03-12 235711" src="https://github.com/nabiilahputri13/inventory/assets/124870275/966e50c2-9eec-4408-be71-81807628ba01">
 <img width="1280" alt="Screenshot 2024-03-13 000236" src="https://github.com/nabiilahputri13/inventory/assets/124870275/3011c7bf-6e56-43b6-9ce9-b64bf4cce495">
